@@ -2,7 +2,7 @@
     @apply flex justify-center pt-4 content-center w-full max-w-full m-auto px-4; /* Center both horizontally and vertically */
 }
     
-.register {
+.last-step {
     @apply w-[20%] p-6 border rounded-md bg-gray-200 justify-center content-center items-center;
 
     .btn {
@@ -19,23 +19,23 @@
 
 }
 
-.register h1 {
+.last-step h1 {
     @apply font-bold text-xl mb-4 items-center justify-center flex;
 }
 
-.register .form-content {
+.last-step .form-content {
     @apply flex items-center gap-2 py-5 w-full;
 }
 
-.register .form-content label {
+.last-step .form-content label {
     @apply font-semibold text-sm w-1/4;
 }
 
-.register .form-content input {
+.last-step .form-content input {
     @apply p-2 border border-gray-300 rounded-md w-3/4;
 }
 
-.register .form-content .error {
+.last-step .form-content .error {
     @apply font-light text-red-500;
 }
 
